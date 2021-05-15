@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support</title>
+
+    <style>
+        input{
+        width: 300px;
+        }
+
+        input + span {
+        padding-right: 10px;
+        }
+
+        input[type='email']:invalid+span:after {
+        position: absolute;
+        content: '✖';
+        padding-left: 5px;
+        padding-top: 5px;
+        color: red;
+        font-size: 14pt;
+        }
+
+        input[type='email']:valid+span:after {
+        position: absolute;
+        content: '✓';
+        padding-left: 5px;
+        padding-top: 5px;
+        color:green;
+        font-size: 14pt;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fill in your support ticket</h1>
+    <form action="" method="post">
+        <div class="form_field">
+            <label for="question-id">Question</label><br>
+            <input type="text" name="question" id="question-id" minlength="10" maxlength="100" placeholder="Enter question" required>
+        </div> <br>
+        <div class="form_field">
+            <label for="category-id">Category</label><br>
+            <select name="category" id="category-id" required>
+                <option value="vclass">Virtual Class</option>
+                <option value="admission">Admission</option>
+                <option value="register_courses">Course Registration</option>
+                <option value="exams">Examination</option>
+                <option value="fees_interpay">Fees and Interpay</option>
+                <option value="graduate">Graduation</option>
+                <option value="hostel">UPSA Hostel</option>
+                <option value="wifi_email">Wi-Fi and Email</option>
+                <option value="student_portal">Student Portal</option>
+                <option value="external">External Affairs</option>
+                <option value="others">Other Issues</option>
+            </select>
+        </div> <br>
+        <div class="form_field">
+            <label for="username-id">Name</label><br>
+            <input type="text" name="user_name" id="username-id" placeholder="eg; John Doe" minlength="2" maxlength="40" required>
+        </div> <br>
+        <div class="form_field">
+            <label for="email-id">E-mail Address</label><br>
+            <input type="email" name="user_email" id="email-id" placeholder="example@gomail.com" pattern="^([\w\d\-]+?)@([a-z]+?).(com|org|net)$" required>
+            <span class="validity"></span>
+        </div>
+        <br>
+        <button type="submit">Submit Ticket</button>
+        
+    </form>
+</body>
+</html>

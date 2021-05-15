@@ -1,0 +1,39 @@
+Help DESK API ROUTES
+- Search for question => GET - /?search_term={question}
+	Parameter = question: string
+	Response
+		{
+		results:[
+				{
+				'_questionID': integer, 
+				'_title': string, 
+				'_category': string
+				}, 
+			]
+		}
+		OR
+		{results: None (null in JS)}
+	NB: The results array can contain 1 or more answers.
+		
+- Get result user selected => GET - /search_result/<string:question_id>'
+	Response
+		{
+		results: {
+			'_title': string, 
+			'_answer': string, 
+			'_category': string
+			}
+		}
+		OR
+		{results: None (null in JS)}
+		
+		
+- Submit Support Ticket => POST - /support
+	Form Data Parameters
+		key      - value
+		question - string
+		category - string
+		user_name - string
+		user_email - string
+		
+	Response: {results: "success"}

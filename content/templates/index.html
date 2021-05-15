@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <h2>Help Desk</h2>
+    <form action="" method="get">
+        <div>
+            <label for="search_id">Search</label>
+            <input type="search" name="search_term" id="search_id">
+        </div>
+        <input type="submit" value="Send">
+    </form>
+
+   <div>
+       {% if results != 'None' %}
+        {% for item in  results %}
+            <div style="border: 1px solid black;">
+                <h3>{{item['_title']}}</h3>
+                <h4>{{item['_category']}}</h4>
+                <h5>{{item['_questionID']}}</h5>
+                <hr>
+            </div>
+        {% endfor %}
+       {% endif %}
+   </div>
+</body>
+</html>
