@@ -69,7 +69,7 @@ def support():
         ticket_id=ticket_id, created_on=created, _sender=mail_sender
     )
     send_ticket_agents(
-        question=question, category=category, user_email=email,
+        user=name, question=question, category=category, user_email=email,
         ticket_id=ticket_id, created_on=created, _sender=mail_sender
     )
     return {"results": 'success'}

@@ -3,7 +3,7 @@ from flask_mail import Message
 
 
 # Send support ticket to Agents
-def send_ticket_agents(*, question, category, user_email, ticket_id, created_on, _sender: str):
+def send_ticket_agents(*, user, question, category, user_email, ticket_id, created_on, _sender: str):
     agents_col = mongo.get_collection('agents')
     agents_data = agents_col.find({}, {'_agentEmail': 1})   # list of all agents from database
     if agents_data is not None:
@@ -11,6 +11,7 @@ def send_ticket_agents(*, question, category, user_email, ticket_id, created_on,
         msg = Message("Support Ticket", sender=(_sender, "isolveitgroup@gmail.com"), recipients=_recipients)
         msg.body = f'''Hello Agent,
 A support ticket with the following details has been filed,
+    - Sender's Name: {user}
     - Ticket ID: {ticket_id}
     - Question: {question}
     - Category: {category}
