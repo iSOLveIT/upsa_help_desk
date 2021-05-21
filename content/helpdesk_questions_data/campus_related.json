@@ -1,0 +1,50 @@
+[
+  {
+      "title": "locate the law faculty block on upsa campus",
+      "category": "campus-related",
+      "answer": "<p>Located on the left hand side of the school entrance. It is Directly opposite the twin tower building.</p>",
+      "tags": "law faculty, law block, map, law students"
+  },
+  {
+      "title": "locate lecture block on campus",
+      "category": "campus-related",
+      "answer": "<h4>Lecture Block Complex</h4> <p>This is a five story lecture hall complex accommodating lecture halls, a meeting room and offices spaces in the central spine on the ground floor. The remaining five floors have lecture halls at the wings and offices for the various departments in the central spine on each level. This facility has two main stair areas, a pedestrian ramp access on all floors and a lift at the main entry foyer. It can be found  closer to the Auditorium  and opposite the fountain.</p>",
+      "tags": "lecture hall, lecture block, LBC, map, classroom"
+  },
+  {
+      "title": "locate library on campus",
+      "category": "campus-related",
+      "answer": "<p>The facility is a five story library complex .It comprises of open reading spaces, lending library, offices for staff of the library and professors, learning commons, research commons etc. It can be found right behind the Mustapha Siedu building.</p>",
+      "tags": "school library, Joshua Alabi Library, student library, library, map"
+  },
+  {
+      "title": "locate istd",
+      "category": "campus-related",
+      "answer": "<p>ISTD (Information Services and Technology Directorate) Block This block houses the ISTD Directorate which is responsible for all IT related issues on the campus. It can be found on the ICT block which is opposite the law lecture halls.</p>",
+      "tags": "istd, information services and technology directorate, map"
+  },
+  {
+      "title": "locate the administration block on campus",
+      "category": "campus-related",
+      "answer": "<p>This facility accommodates all the administrative offices of the University. It comprises of a central wing, north and south wing and a third east wing It also has a spacious car parking at the frontage. The building has a name Mustapha Siedu bodly written on it.</p>",
+      "tags": "administration, administration block, school administration, VC office, map"
+  },
+  {
+      "title": "locate the upsa hospital",
+      "category": "campus-related",
+      "answer": "<p>The UPSA clinic provides hospital services for staff and students of the University community. It has currently an outpatient department (O.P.D), medical records section, male and female wards, doctors consulting room and treatment room. It is located opposite the basketball field and it’s right behind the ICT block.</p>",
+      "tags": "hospital, school clinic, health, map"
+  },
+  {
+      "title": "locate the students sports facility",
+      "category": "campus-related",
+      "answer": "<p>The sports facility comprises of a football pitch, volleyball, basketball and lawn tennis court for use by students and is located in front of the Students Center</p>",
+      "tags": "football pitch, volley court, basketball court, tennis court, map"
+  },
+  {
+      "title": "locate student center on campus",
+      "category": "campus-related",
+      "answer": "<p>The Student Centre can be found directly opposite the basketball field</p>",
+      "tags": "lecture hall, student centre, SRC Office, printing press, map"
+  }
+]

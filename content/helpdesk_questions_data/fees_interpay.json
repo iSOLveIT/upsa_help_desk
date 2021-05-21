@@ -1,25 +1,32 @@
 [
   {
-    "title": "can an applicant continue application online after deadline has elapsed",
-    "category": "admission",
-    "tags": "closure, application, deadline, application continuation, continue, elapsed"
+    "title": "payment of fees",
+    "category": "fees-interpay related",
+    "answer": "<p>Pay your academic facility user fees and miscellaneous charges or dues at the designated banks indicated on the fees schedule(Access Bank and EcoBank) <br> Follow the link below to disburse fees after payment at the bank is done: <a href='https://www.interpayafrica.com/upsa/student'>UPSA Interpay</a>.<br>Use your student’s identification number as both username and password and change the password when logging-out.<br>Generate a print out for submission at the registration point.</p>",
+    "tags": "school fees, fees, fee, student fees, bills"
+  },
+  {
+    "title": "fees payment with mobile money or credit card",
+    "category": "fees-interpay related",
+    "answer": "<p>Visit <a href='https://www.interpayafrica.com/upsa/student'>UPSA Interpay</a>.<br> Click on the wallet tab. Choose top up by mobile or Credit/Debit Card.<br>Enter your Student Index Number and password to continue<br>Select mobile money option(You can choose to pay with Mobile money using MTN MoMo, Vodafone Cash and AirtelTigo Money)<br><ul><li>Enter your Mobile Number or Card details</li><li>Enter Amount</li><li>Submit to pay</li></ul><br>NB: either ways can be used by both freshers and student of UPSA.</p>",
+    "tags": "top-up by mobile money, fees paying, mobile money, momo, credit card, top-up by credit card"
+  },
+  {
+    "title": "disburse fees",
+    "category": "fees-interpay related",
+    "answer": "<p>After logging to <a href='https://www.interpayafrica.com/upsa/student'>UPSA Interpay</a>, select “Pay Fee” which is on the left side of the menu. <br>This will open the fee generated applicable to the student. You will then select the multiple fees you want to pay by clicking on \"select\" button that is adjacent to the fee bills.<br>For the Facility Subsidy Fee, you have the option of paying in installments. <br>By default, you will fill the total amount owed. To pay in installements, You will have to key in the amount that you have to pay. Alternatively, you can use the drop down button to increase or reduce the amount. <br>The amounts against each bill will be accumulated at the top of the page, and the buttons selected by you will change their colors from white to black.<br>Once you have chosen all the fee amounts to pay, press \"Pay\" to allow the system to pay the fee.<br> You will then be asked to confirm that you want to pay as shown below. If you press OK, the system will make the payment to the University's account. <br>You should understand that once you have confirmed a transaction, it cannot be reversed. As soon as you have confirmed the payment by clicking on the Pay button, you will receive a confirmation message. <br>Once you pay the fee, your current available balance in the bank will reduce and the fee line items will be removed from your bill.<br>NB: All Students are required to pay the appropriate Facility User Fees at Access Bank. Ensure that you quote correctly your  Student Identification Number  on all the pay-in-slips. Log on to <a href='https://www.interpayafrica.com/upsa/student'>UPSA Interpay</a> to disburse the payment.</p>",
+    "tags": "fees disbursement, interpay, disburse fees, school, fees, bills, fee, student"
+  },
+  {
+    "title": "login into the upsa interpay",
+    "category": "fees-interpay related",
+    "answer": "<p>To log in to the UPSA interpay system, you should enter your index number and password. If you cannot remember your password, click on Forgot Password to recover it.<br>To recover your password, you will be required to provide your username and email address so that a reset code will be sent to your email.</p>",
+    "tags": "sign-in interpay, login interpay, interpay account, interpay"
+  },
+  {
+    "title": "financial institutions accredited to receive fee payment",
+    "category": "fees-interpay related",
+    "answer": "<p><ul>Continuing and new students are expected to pay their befitting Academic Facility Fees at the following banks:<li>Mainstream Students – Ecobank or Access Bank being based on the bank outlined in the student’s Admission letter.</li><li>Weekend School Students – Ecobank</li></ul></p>",
+    "tags": "school fees, fees, fee, student fees, bills, accredited banks, fee payment, banks to pay fees at, pay fees at bank"
   }
 ]
-
-Question
-  How to pay mandatory fee?
-  How to pay school fee?
-  How to pay hostel fee?
-  pay for other services
-  print bill statement
-  check other services payment is submitted
-  pay fees by credit card
-  pay fees by mobile
-  check transaction history
-  request for other services
-  website address or access upsa interpay page
-  login into interpay
-  reset interpay password
-  logout from interpay
-  change interpay password
-

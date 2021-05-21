@@ -1,3 +1,20 @@
-Questions
-
-      Where are UPSA students accommodated on campus?
+[
+  {
+    "title": "apply for bed or book for a bed in upsa hostel as a student",
+    "category": "hostel related",
+    "answer": "<p><h4>Procedure for Application for Bed in the UPSA Hostel</h4><br> -Login to <a href='https://upsahostel.com'>UPSA Hostel</a><br> -Login with your INDEX NUMBER as username and DATE OF BIRTH as password for first login. You can change the password to your desired stronger password for security reasons. <br> -Edit your phone number and email address if they are not functional.<br> -Book a room of preference provided the room is in your hall of affiliation and then proceed to agree to the Terms and Conditions of the Tenancy Agreement.<br> -Proceed to make payment of the designated hostel facility user fee and related charges for the selected room, in any branch of Access Bank or Top-up by mobile money on <a href='https://www.interpayafrica.com/upsa/student'>UPSA Interpay</a><br> -Proceed immediately to disburse the payment on <a href='https://www.interpayafrica.com/upsa/student'>UPSA Interpay</a> using these steps: <ul> <li>Click on the Student Tab, then select Other Services. Click on Requests</li> <li>Select UPSA hostel facility fee</li> <li>Select Hall dues : Yaa Asantewaa/Opoku Ampomah/Liberty or Mandela (select which hall is applicable)</li> <li>Select UPSA hostel refundable deposit for damages</li> <li>UPSA hostel initial electricity credit</li> <li>Click on the Calculate Bill button</li> <li>Click on the Pay Bill button</li> </ul><br>             NB: Please take note that failure to make payment and disbursement within specific period of time, will lead to cancellation of bookings. A confirmation SMS shall be sent to applicant after successful payment and disbursement within the 24-hour mandatory period.<br> Login with your credentials to view booking information and print out your Tenancy Agreement.</p>",
+    "tags": "hostel booking, school hostel, student accommodation, hostel fees payment, hostel fees disbursement"
+  },
+  {
+    "title": "hostel registration",
+    "category": "hostel related",
+    "answer": "<p>All UPSA students who successfully secure bed through the application exercise shall be required to do registration at the Porter’s Lodge before starting residence.<br>Timetable for the registration exercise is always published or communicated in due course.<br>Note that you will be required to atleast provide two passport size pictures of yourself  with your index number and room number written behind them.<br>NB: The use of improper passport picture shall lead to the withdrawal of the assigned room. Where it is discovered that no passport picture is uploaded, the assigned room shall be withdrawn.</p>",
+    "tags": "hostel lodging, sign in at porter lodge, access to hostel room"
+  },
+  {
+    "title": "beds availability",
+    "category": "hostel related", 
+    "answer": "<p>There is a four (4) in a room occupancy  and a two (2) in a room occupancy. Both room occupancy comes with a different fee, fees will be communicated accross respectively while paying on <a href='https://www.interpayafrica.com/upsa/student'>UPSA Interpay</a>.</p>",   
+    "tags": "available beds, beds, hostel beds, book beds, hostel booking"
+  }
+]

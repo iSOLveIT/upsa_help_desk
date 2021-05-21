@@ -1,0 +1,38 @@
+[
+  {
+      "title": "connect to virtual classroom",
+      "category": "virtual-class",
+      "answer": "<p>The web address (URL) to UPSA-Virtual is <a href='https://join.upsavirtual.site>join.upsavirtual.site</a>. However, accessing UPSA-Virtual for the first time requires that you activate your UPSA-Virtual account by accessing a link from your UPSAmail.</p>",
+      "tags": "learning management system, virtual classroom, upsa virtual, online class, lms"
+  },
+  {
+      "title": "activate your upsa virtual account (first-time login)",
+      "category": "virtual-class",
+      "answer": "<p>Open your UPSA mail. You will find a link to UPSA-Virtual in your mail. Click on the link and follow the instruction in your mail to access UPSA-Virtual Follow the instructions to change your password. (It will be your new password for subsequent logins).</p>",
+      "tags": "virtual site activation, activate upsa virtual, login to upsa virtual, login into lms, lms, learning management system"
+  },
+  {
+      "title": "log in to upsa virtual (after activation or after first-time login)",
+      "category": "virtual-class",
+      "answer": "<p><ul><li>Visit <a href='join.upsavirtual.site'>UPSA Virtual Site</a></li><li>Enter your index number (e.g. 10090428) in username textbox</li><li>Enter your current password</li><li>Click on ‘Log in’ button to log in</li></ul></p>",
+      "tags": "virtual site activation, activate upsa virtual, login to upsa virtual, login into lms, lms, learning management system"
+  },
+  {
+      "title": "reset your password for upsa virtual account",
+      "category": "virtual-class",
+      "answer": "<p><ul><li>Visit <a href='join.upsavirtual.site'>UPSA Virtual Site</a> and click on the ‘Forgotten username or password’ link.</li><li>Enter only your index number in the username textbox.If you entered your index number correctly, an email with a link to reset your password will be sent to your UPSAmail by the notification.</li><li>Log in to your UPSAmail. Access the mail with the subject “UPSA E-Learning Platform: Password reset request”. </li><li>Follow the instructions in the mail to reset your password.</li></ul></p>",
+      "tags": "password reset, upsa virtual account, reset, password, lms"
+  },
+  {
+      "title": "locate the administration block on campus",
+      "category": "virtual-class",
+      "answer": "<p>This facility accommodates all the administrative offices of the University. It comprises of a central wing, north and south wing and a third east wing It also has a spacious car parking at the frontage. The building has a name Mustapha Siedu bodly written on it.</p>",
+      "tags": "administration, administration block, school administration, VC office, map"
+  },
+  {
+      "title": "submit your assignment on the lms",
+      "category": "virtual-class",
+      "answer": "<p>First, click on the course whose assignment you want to submit and locate the week of the assignment <br> Then click on the assignment after locating the submission status of the assignment. <br> Below the submission status, locate add submission and click on it. <br>A text box is displayed with icons on top. Click on the copy icon. Other icons are displayed under the file manager then click on the first icon. <br> Locate the upload a file link and click on choose file under attachment to select your typed solution to the assignment. <br> Name the file using the save as box and click on upload this file located below.<br>The site takes you back to submission status. Make sure the submission status is submitted for grading. <br>You are done with your submission but you can check your student email for the confirmation. <br> Most lecturers communicate with class reps. To convey information , therefore for any other information or assistance contact your course reps or lead lectures.</p>",
+      "tags": "virtual platform, virtual site, upsa virtual, assignment submission, lms, learning management system"
+  }
+]
