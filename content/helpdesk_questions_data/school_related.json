@@ -1,38 +1,32 @@
 [
-  {
-      "title": "check results",
-      "category": "school-related",
-      "answer": "<p>Go to UPSA student portal, Sign in by entering your student login details in the appropriate fields provided.<br>Navigate to the result section and select the semester you need to access your result.</p>",
-      "tags": "semester results, results, student results, terminal, term, report"
-  },
-  {
-      "title": "register courses",
-      "category": "school-related",
-      "answer": "<p>After Payment and disbursement of fees proceed to register courses by using the UPSA Course Registration Portal. Access the student on-line registration portal by logging on to http://upsasip.com. <br>Print out two (2) copies of Proof of Registration Slip upon successful completion of the on-line registration.</p>",
-      "tags": "semester course, course registration, register, courses, student registration"
-  },
-  {
-      "title": "register re-sit papers",
-      "category": "school-related",
-      "answer": "<p>Once done with the course registration, you could now pay and disburse for your re-sit registration provided you have any first semester paper(s) you wish to resit. <br> Each Credit Hour of a re-sit paper (course) registered attracts a fee of GH¢20.00) e.g. BCPC212: Business Ethics is a 3 credit hour paper and therefore attracts a re-sit registration fee of Sixty Ghana cedis (GH¢60.00). <br>Return to your USIS Student’s portal to do your resit registration and generate the proof of registration.</p>",
-      "tags": "resit, re-sit, re-sit exams, re-sit papers, student re-sit"
-  },
-  {
-      "title": "submission and endorsement of proof of registration slips",
-      "category": "school-related",
-      "answer": "<p>Submit the Proof of Registration Slips to your Department Officer for endorsement after which one (1) copy of the slip will be given back to you. Weekend Students are, nonetheless, requested to carry out the same process at the Weekend School Secretariat.</p>",
-      "tags": "proof of registration, course registration, signing proof of registration, student registration"
-  },
-  {
-      "title": "register for graduation congregation",
-      "category": "school-related",
-      "answer": "<p>Registration for the Congregation: <br> Graduands who have successfully completed their programmes of study during their specific academic year in their afore mentioned Faculties and Schools and wish to be presented during the graduation Congregation are required to be cleared of all financial obligations to the University prior to registration for the Congregation. <br> A non-refundable fee of GH¢330.00 is required to be paid at any branch of Access Bank Ltd. After payment of the fee, graduands must log onto https://www.interpayafrica.com/upsa/student to disburse the payment.  After having paid and disbursed the graduation fee, graduands who wish to participate in the Congregation should log into their USIS student portal and click on the “Register for Graduation” tab to register for the graduation ceremony. Graduands registered for the Congregation are expected to be seated by 8 a.m. on the date of their Congregation Ceremony. <br> Note: Only graduands who have paid their graduation fee and have been cleared of all financial obligations will be issued with graduation gowns, souvenirs, a free copy of their transcript, and have their certificates released to them.</p>",
-      "tags": "graduation, congregation, graduation registration, final year"
-  },
-  {
-      "title": "activate your upsa mail",
-      "category": "school-related",
-      "answer": "<h4>How to Activate your UPSA Mail</h4><p>If you are using a personal smartphone or tablet: Go to the settings of the device (whether Android or iOS) and select the option to add Accounts and choose Gmail. <br>If you are using a laptop or PC: Open a browser and log on to www.gmail.com. Click on ‘Sign in’ button. Use your IDnumber@upsamail.edu.gh as your email address and click on the ‘next’ button.<br>Example: 10280238@upsamail.edu.gh. Enter the default password UPSA2013 and click on the ‘Next’ button. <br>Click on the ‘Accept’ button to accept the Google Terms of Service and the Google Privacy Policy. <br>If you activated your account using Smart Phone or Tablet (either on Android or iOS) your UPSAmail account should be listed as one of the Gmail accounts on your device. It is important to change your password after UPSAmail Activation to ensure the total security of your UPSAmail and other Google Apps (such as Google Drive, Doc, Sheet, Slides, Calendar, Form, Meet, etc.,) that you are entitled to use freely as part of the Apps associated with your UPSAmail. <br>In case you forget or lose your password, you can use your phone number to receive an SMS code on your phone to reset your password. This is only possible if you have done settings for Mobile Phone Password Recovery.</p>",
-      "tags": "student email, school email, email, activate mail, mail"
-  }
+    {
+        "title": "check results",
+        "category": "school-related",
+        "tags": "semester results, results, student results, terminal, term, report"
+    },
+    {
+        "title": "register courses",
+        "category": "school-related",
+        "tags": "semester course, course registration, register, courses, student registration"
+    },
+    {
+        "title": "register re-sit papers",
+        "category": "school-related",
+        "tags": "resit, re-sit, re-sit exams, re-sit papers, student re-sit"
+    },
+    {
+        "title": "submission and endorsement of proof of registration slips",
+        "category": "school-related",
+        "tags": "proof of registration, course registration, signing proof of registration, student registration"
+    },
+    {
+        "title": "register for graduation congregation",
+        "category": "school-related",
+        "tags": "graduation, congregation, graduation registration, final year"
+    },
+    {
+        "title": "activate your upsa mail",
+        "category": "school-related",
+        "tags": "student email, school email, email, activate mail, mail"
+    }
 ]

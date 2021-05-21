@@ -11,7 +11,7 @@
     <form action="" method="get">
         <div>
             <label for="search_id">Search</label>
-            <input type="search" name="search_term" id="search_id">
+            <input type="search" name="search_term" id="search_id" minlength="2" maxlength="200">
         </div>
         <input type="submit" value="Send">
     </form>
@@ -22,6 +22,7 @@
             <div style="border: 1px solid black;">
                 <h3>{{item['_title']}}</h3>
                 <h4>{{item['_category']}}</h4>
+                <a href="{{ url_for('select_result', question_id=item['_questionID']) }}">Open Answer</a>
                 <h5>{{item['_questionID']}}</h5>
                 <hr>
             </div>

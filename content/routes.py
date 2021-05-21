@@ -16,15 +16,12 @@ def index():
     if search_term is not None:
         search_term = search_term.lower()
         # limit of 512 characters per query by Algolia
-        res = re.search(r"^[\w\d ]{5,200}?$", search_term)
+        res = re.search(r"^[\w\d ]{2,200}?$", search_term)
         if res is not None:
             answers = search_bar(query=search_term)
             if answers is None:
-                # return render_template('index.html', results="None")
                 return {"results": None}
-            # return render_template('index.html', results=answers)
             return {"results": answers}
-    # return render_template('index.html', results='None')
     return {"results": None}
 
 
@@ -39,10 +36,22 @@ def select_result(question_id):
     return {"results": result}
 
 
+# Route for fetching result by category
+@app.route('/search_category/<string:category>')
+def search_category(category):
+    records_col = mongo.get_collection('records')
+    result = records_col.find(
+        {'_category': category},
+        {'_title': 1, '_category': 1, '_questionID': 1, '_id': 0}
+    )
+    result = [item for item in result]
+    return {"results": result}
+
+
 # Route for support
 @app.route('/support', methods=['POST'])
 def support():
-    # ticket_collection = mongo.get_collection('tickets')
+    ticket_collection = mongo.get_collection('tickets')
     question = request.form.get('question')
     category = request.form.get('category')
     name = request.form.get('user_name')
@@ -51,11 +60,10 @@ def support():
     ticket_id = "".join(sample("abcdefgh123456789", 5))
     mail_sender = "UPSA Help Desk Contact"
 
-    # ticket_collection.insert_one({
-    #     "_ticketID": ticket_id, "_question": question, "_answer": "",
-    #     "_email": email, "_category": category, "_name": name, "status": False,
-    #     "_created": created
-    # })
+    ticket_collection.insert_one({
+        "_ticketID": ticket_id, "_question": question, "_email": email,
+        "_category": category, "_name": name, "_created": created
+    })
     send_ticket_details(
         question=question, user_email=email, user_name=name, category=category,
         ticket_id=ticket_id, created_on=created, _sender=mail_sender

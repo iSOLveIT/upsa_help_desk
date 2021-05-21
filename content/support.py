@@ -1,5 +1,3 @@
-# import os
-
 from . import mail, mongo
 from flask_mail import Message
 
@@ -27,22 +25,6 @@ Regards,
     '''
         mail.send(msg)
         return 'OK'
-
-
-# # Reply for support ticket when answered
-# def reply_ticket(*, user_name, user_email, ticket_id, created_on, _sender: str):
-#     msg = Message("Support Ticket Answered", sender=(_sender, "isolveitgroup@gmail.com"), recipients=[user_email])
-#     msg.body = f'''Hello {user_name},
-# The support ticket with ticket id - {ticket_id} that was created on {created_on}
-# has been answered.
-
-# Thank you.
-
-# Regards,
-# {_sender.upper()}
-# '''
-#     mail.send(msg)
-#     return 'OK'
 
 
 # Send support ticket details to user

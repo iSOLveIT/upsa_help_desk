@@ -14,8 +14,26 @@ Help DESK API ROUTES
 		OR
 		{results: None (null in JS)}
 	NB: The results array can contain 1 or more answers.
+
+- Get results by category => GET - /search_category/<string:category>
+    Parameter = category: string - List of categories are Categories: ["admission", "campus-related", "fees-interpay related", "hostel related", "school-related", "virtual-class"]
+	Response
+		{
+		results:[
+				{
+				'_questionID': integer,
+				'_title': string,
+				'_category': string
+				},
+			]
+		}
+		OR
+		{results: None (null in JS)}
+	NB: The results array can contain 1 or more answers.
+
 		
-- Get result user selected => GET - /search_result/<string:question_id>'
+- Get result user selected => GET - /search_result/<string:question_id>
+    Parameter = question_id: string - The _questionID value returned by the Get results by category endpoint or the Search for question endpoint
 	Response
 		{
 		results: {
@@ -37,3 +55,4 @@ Help DESK API ROUTES
 		user_email - string
 		
 	Response: {results: "success"}
+
